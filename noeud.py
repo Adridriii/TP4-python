@@ -2,7 +2,9 @@ import math
 import matplotlib
 import matplotlib.pyplot as plt
 import numpy as np
-
+"""
+Classe représentant un nœud dans un arbre d'expression.
+"""
 class Noeud :
     def __init__ (self, x):
         self.x = x
